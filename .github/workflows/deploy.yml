@@ -44,7 +44,7 @@ jobs:
       - name: Build project
         run: ${{ steps.detect-package-manager.outputs.runner }} npm run build
         env:
-          REACT_APP_FIREBASE_API_KEY: ${{ secrets.REACT_APP_API_URL }}
+          REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
