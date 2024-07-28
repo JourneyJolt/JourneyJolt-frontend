@@ -1,4 +1,4 @@
-const baseURL = '/api/v2'
+const baseURL = process.env.REACT_APP_API_URL
 
 const auth = '/auth'
 const bookings = '/bookings'
