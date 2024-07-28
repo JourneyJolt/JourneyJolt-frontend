@@ -1,6 +1,7 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "homepage": "https://CyanogenPlayer.github.io/JourneyJolt-Frontend",
+  "name": "JourneyJolt-App",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
