@@ -1,0 +1,11 @@
+.HotelCard {
+    height: 20rem;
+    width: 18rem;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.HotelCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
